@@ -140,7 +140,22 @@
   footer {
     text-align: center;
   }
-
+  footer img{
+    width: 75px !important;
+  }
+  .footer-logo{
+    width: 100%;
+    float: none;
+  }
+  .footer-menu{
+    /* float: left; */
+    margin-right: 20vw;
+    align-content: center !important;
+    /* display: inline-block; */
+  }
+  .footer-menu a{
+  /* float: none; */
+  }
   footer img {
   width: 75px; 
 }

@@ -37,8 +37,7 @@ span{
 header {
   height : 65px;
   width : 100%;  
-  background-color : rgba(25, 50, 56, 0.9);  
-  /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;  */
+  background-color : rgba(25, 50, 56, 0.9);
   background-blend-mode: multiply,multiply;
   opacity: .9;
   position : fixed;
@@ -332,17 +331,55 @@ input:hover, textarea:hover{
 }
 
 /* --------footer--------- */
-footer img {
-  width: 150px;
-  align: center;
+ul li{
+  list-style: none;
+  float: left;
+  padding: 1px 10px;
+  border-left: 1px solid rgb(155, 155, 155);
+  border-right: 1px solid rgb(155, 155, 155);
+  color: wheat;
 }
 
-footer p {
+.footer-wrapper{
+  display: inline-block;
+  width: 100%;
+}
+.copyright{
   color: #b3aeb5;
   font-size: 12px;
+  text-align: center;
+}
+.footer-logo{
+  width: 40%;
+  float: left;
+  margin: auto;
+}
+.footer-logo p{
+  color: rgb(186, 90, 0);
+  margin-top: 0;
+}
+.footer-menu{
+  /* text-align: right; */
+  float: right;
+}
+.footer-menu a{
+  text-align: right;
+  float: left;
+  padding: 50px auto ;
+  transition: 1s;
+  color: rgb(208, 180, 144);
+}
+.footer-menu a:hover{
+  color: white;
+  transition: .5s;
+  text-shadow: 1px 1px 2px #8a8a8a;
+}
+footer img {
+  width: 100px !important;
 }
 
 footer {
+  background-image: linear-gradient(to top, #434343 0%, black 100%);
   padding-top: 30px;
   padding-bottom: 20px;
 }
