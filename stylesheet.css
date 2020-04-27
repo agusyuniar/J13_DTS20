@@ -74,6 +74,14 @@ header {
   font-family: Rajdhani,sans-serif;
 }
 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none; 
+}
+
 /* ----------main----------- */
 
 .main h1 {
@@ -102,7 +110,7 @@ header {
   padding: 180px 0 100px 0;
   background-image: url("https://scx2.b-cdn.net/gfx/news/hires/2018/darkenergy.jpg");
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
   color: white;
   text-align:center;
   font-family: Rajdhani,sans-serif;
@@ -205,7 +213,7 @@ header {
   padding-left: 5%;
   padding-right: 5%;
   background-image: url("./img/contact-bg.jpg");
-  background-size: 100vw;
+  background-size: cover;
   background-attachment: fixed;}
 .detail{
   width: 100%;
@@ -259,7 +267,6 @@ header {
   border-right: 1.5px solid #858585;
   border-radius: 10px 0 0 10px;
   padding: 20px;
-  margin:20px;
   margin:15px 0 15px 15px;
 }
 .detail-right h2{
