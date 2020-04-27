@@ -27,6 +27,9 @@
   .teams-icon img{
     height: 75px;
   }
+  .teams-icon img:hover{
+    height: 90px;
+  }
 
   .detail-img{
     display: none;
